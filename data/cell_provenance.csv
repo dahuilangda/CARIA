@@ -1,0 +1,49 @@
+row_index,field,original_value,analysis_value,action,basis,source_verified
+14,drug_loading_percent,12.0,0.12,declared_unit_conversion,Declared percentage field,False
+70,drug_loading_percent,42.0,0.42,declared_unit_conversion,Declared percentage field,False
+133,drug_loading_percent,100.0,1.0,declared_unit_conversion,Declared percentage field,False
+148,drug_loading_percent,29.0,0.29,declared_unit_conversion,Declared percentage field,False
+183,drug_loading_percent,49.0,0.49,declared_unit_conversion,Declared percentage field,False
+194,drug_loading_percent,72.0,0.72,declared_unit_conversion,Declared percentage field,False
+201,drug_loading_percent,50.0,0.5,declared_unit_conversion,Declared percentage field,False
+291,drug_loading_percent,0.53,0.0053,declared_unit_conversion,Declared percentage field,False
+297,drug_loading_percent,25.0,0.25,declared_unit_conversion,Declared percentage field,False
+332,drug_loading_percent,25.0,0.25,declared_unit_conversion,Declared percentage field,False
+352,drug_loading_percent,90.0,0.9,declared_unit_conversion,Declared percentage field,False
+397,drug_loading_percent,82.0,0.82,declared_unit_conversion,Declared percentage field,False
+407,drug_loading_percent,90.0,0.9,declared_unit_conversion,Declared percentage field,False
+512,drug_loading_percent,65.5,0.655,declared_unit_conversion,Declared percentage field,False
+558,drug_loading_percent,67.0,0.67,declared_unit_conversion,Declared percentage field,False
+593,drug_loading_percent,4.25,0.0425,declared_unit_conversion,Declared percentage field,False
+609,drug_loading_percent,99.0,0.99,declared_unit_conversion,Declared percentage field,False
+630,drug_loading_percent,19.0,0.19,declared_unit_conversion,Declared percentage field,False
+660,drug_loading_percent,15.1,0.151,declared_unit_conversion,Declared percentage field,False
+688,drug_loading_percent,12.4,0.124,declared_unit_conversion,Declared percentage field,False
+759,drug_loading_percent,73.0,0.73,declared_unit_conversion,Declared percentage field,False
+781,drug_loading_percent,80.0,0.8,declared_unit_conversion,Declared percentage field,False
+889,drug_loading_percent,90.0,0.9,declared_unit_conversion,Declared percentage field,False
+966,drug_loading_percent,10.0,0.1,declared_unit_conversion,Declared percentage field,False
+1055,drug_loading_percent,97.0,0.97,declared_unit_conversion,Declared percentage field,False
+1093,drug_loading_percent,1.8735,0.018735,declared_unit_conversion,Declared percentage field,False
+1101,drug_loading_percent,79.0,0.79,declared_unit_conversion,Declared percentage field,False
+1134,drug_loading_percent,100.0,1.0,declared_unit_conversion,Declared percentage field,False
+1295,drug_loading_percent,88.0,0.88,declared_unit_conversion,Declared percentage field,False
+9,formulation_composition_excipients_concentration_percent_w_v__std,10.0,1.0,declared_unit_conversion,Explicit 10 mg/mL = 1% w/v,False
+61,particle_size_nm,88000.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+128,particle_size_nm,35000.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+325,drug_loading_percent,102.8,,exclude_out_of_analysis_domain,Percentage above 100,False
+340,drug_loading_percent,150.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+340,particle_size_nm,210000.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+357,particle_size_nm,44300.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+402,drug_loading_percent,350.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+437,encapsulation_efficiency_percent,198.3,,exclude_out_of_analysis_domain,Percentage above 100,False
+461,particle_size_nm,150000.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+520,drug_loading_percent,101.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+636,particle_size_nm,34700.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+825,particle_size_nm,1117800.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False
+828,drug_loading_percent,106.7,,exclude_out_of_analysis_domain,Percentage above 100,False
+978,drug_loading_percent,190.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+1068,drug_loading_percent,250.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+1111,drug_loading_percent,203.3,,exclude_out_of_analysis_domain,Percentage above 100,False
+1191,encapsulation_efficiency_percent,300.0,,exclude_out_of_analysis_domain,Percentage above 100,False
+1197,particle_size_nm,79400.0,,exclude_out_of_analysis_domain,Reported size >= 34700 nm; source/unit review pending,False

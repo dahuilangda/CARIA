@@ -1,0 +1,11 @@
+# Recorded benchmark environment: Python 3.13.
+numpy==2.5.1
+pandas==3.0.3
+scipy==1.18.0
+scikit-learn==1.9.1
+joblib==1.6.0
+tabpfn==9.2.0
+torch==2.14.1
+matplotlib==3.11.0
+diptest>=0.11
+quantile-forest>=1.4

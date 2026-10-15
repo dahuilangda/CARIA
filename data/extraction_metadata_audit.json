@@ -1,0 +1,13 @@
+{
+ "rows": 1310,
+ "model_declared": {
+  "Qwen/Qwen3-30B-A3B-Thinking-2507-FP8": 1310
+ },
+ "content_truncated": {
+  "False": 1298,
+  "True": 12
+ },
+ "data_quality_score_below_50": 836,
+ "data_quality_score_non_null": 1310,
+ "note": "The quality score is rule-based structure/completeness, not source accuracy; the threshold of 50 flags manual review and never excluded records. All timestamps in the snapshot are one hardcoded constant."
+}

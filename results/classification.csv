@@ -1,0 +1,5 @@
+target,task,n,class_counts,balanced_accuracy,auc_class_0,auc_class_1,auc_class_2,roc_auc
+drug_loading_percent,DL band <10 / 10-25 / >25 percent,859,"{""0"": 379, ""1"": 298, ""2"": 182}",0.6432,0.8632,0.7992,0.8689,
+encapsulation_efficiency_percent,ceiling EE >= 95%,803,"{""0"": 622, ""1"": 181}",,,,,0.6268
+zeta_potential_mV,zeta sign anionic / neutral / cationic,572,"{""0"": 262, ""1"": 217, ""2"": 93}",0.3882,0.5778,0.6235,0.5866,
+particle_size_nm,size band <100 / 100-200 / >200 nm,1035,"{""0"": 560, ""1"": 349, ""2"": 126}",0.3776,0.6407,0.5974,0.5533,

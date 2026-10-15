@@ -1,0 +1,174 @@
+material,row_index,analysis_included,reported_material_text
+HS15,140,True,Poloxamer 407 (F127); Poloxamer 188 (P188); Solutol®HS15
+HS15,194,True,Kolliphor® HS15; Labrafac® WL1349; Span® 80; Free PEG 660
+HS15,263,True,Kolliphor HS 15; Sodium chloride; Labrafil M 2125; Water; Lipoid S 75; Tween 80
+HS15,286,True,Kolliphor® HS 15; Glucose; Sodium chloride
+HS15,329,True,Kolliphor HS15; Labrafac lipophile WL 1349; Lipoid S-100; Sodium chloride
+HS15,343,True,Solutol® HS15; Lecithin
+HS15,349,True,Solutol HS 15; Lipid S100; Propylene glycol; Glycerine; Ethanol
+HS15,467,True,Labrafac WL 1349; Solutol HS 15; Span 85; Labrafac; Sodium chloride; Water
+HS15,556,True,Solutol HS 15
+HS15,592,True,DSPE mPEG2k; Solutol HS 15
+HS15,660,True,Oleic Plurol; Kolliphor HS-15; Labrafac WL 1349; Water; NaCl; Dioctyl sodium sulfosuccinate
+HS15,704,True,Solutol® HS15; Pluronic F127
+HS15,989,True,Lecithin; Solutol HS15; Protamine sulfate; Hyaluronic acid
+HS15,1029,True,Polyoxyl 15 hydroxystearate (Solutol HS15); Pluronic L61
+HS15,1037,True,Solutol® HS15; Soluplus®
+HS15,1102,True,Solutol® HS15; TPGS
+F108,1066,True,Pluronic F108; Folic acid; Methanol; Water
+P123,74,False,Pluronic P123; α-Tocopheryl succinate; Ortho ester
+P123,75,True,Lecithin; Sodium deoxycholate (NaDOC); Pluronic P123 (PP123)
+P123,86,True,Pluronic P123; Pluronic F127; Tryptophan derivate (TD)
+P123,113,True,Pluronic F127; Pluronic P123; D-α-tocopheryl polyethylene glycol 1000 succinate (TPGS)
+P123,152,True,Lecithin; Pluronic P123; DSPE-PEG2K
+P123,198,False,Pluronic P123; Pyrrole monomer; Ammonium persulfate; Gemcitabine
+P123,268,True,Pluronic P123; Pluronic F127; PEO₁₁₃-b-PCL₁₁₈; Ethanol; Acetone; Tween 20
+P123,272,True,Pluronic P123; Pluronic F127; Folate-conjugated Pluronic F127
+P123,292,True,Pluronic P123; Pluronic F127
+P123,348,False,Pluronic F127; Pluronic P84; Pluronic P123
+P123,387,False,Pluronic P123; Pluronic F127
+P123,406,False,Pluronic P123; Pluronic P84; Folic acid; Mannitol
+P123,464,True,Pluronic L121; Pluronic P123
+P123,661,True,Sodium taurocholate; Pluronic P123
+P123,663,True,Pluronic P123 (EO)₂₀(PO)₇₀(EO)₂₀; HCl (2 mol L⁻¹); Tetramethyl orthosilicate (TMOS); 3-aminopropyltriethoxysilane (APTES)
+P123,715,True,Pluronic P123; Pluronic P407; TPGS
+P123,762,True,Lecithin; Sodium deoxycholate (NaDOC); PLURONIC P123
+P123,840,False,Pluronic P123; Gelatin; Folic acid; Ethanol; DI water
+P123,865,True,Pluronic F127; Pluronic P123; Oleic acid; Carbopol 934P
+P123,921,True,P123; Amorphous calcium phosphate (ACP)
+P123,975,True,Pluronic P123; Pluronic F127
+P123,985,True,Pluronic P123; Pluronic L64; Mannitol
+P123,1067,True,Lecithin; Pluronic P123
+P123,1136,True,Pluronic P123; PEG₂₀₀₀-PCL₄₀₀₀; Borneol
+P123,1146,True,Pluronic P123; Pluronic L121
+P123,1153,False,Pluronic P123; Pluronic F127
+P123,1165,True,Pluronic P123
+P123,1180,False,Pluronic P123; Pluronic F127
+P123,1261,True,Chitosan; Pluronic P123
+P123,1262,True,mPEG-b-PJL; mPEG-b-PJL-COOH; Soluplus; Pluronic P123
+P123,1271,True,Pluronic F127; Pluronic P123; Folic acid; Hyaluronic acid
+L64,985,True,Pluronic P123; Pluronic L64; Mannitol
+P188/F68,31,True,Poly(δ-valerolactone)/poly(ethylene glycol)/poly(δ-valerolactone) (VEV); Pluronic F-68
+P188/F68,140,True,Poloxamer 407 (F127); Poloxamer 188 (P188); Solutol®HS15
+P188/F68,191,True,Soluplus; Pluronic F68
+P188/F68,200,True,Soluplus®; Poloxamer 188
+P188/F68,217,True,PLGA-PEG; PLGA-PLL-DMA; PLGA-PEG-AE105; Pluronic F68
+P188/F68,254,True,Poloxamer 188; Poloxamer 407; Poly-lactic acid
+P188/F68,257,True,Soluplus; Poloxamer 188; Hyaluronic acid; D-trehalose dihydrate
+P188/F68,281,True,Inulin; Pluronic F68; Stearic acid
+P188/F68,299,True,F68-acetal-PCL (FAP); F68-glycyrrhetinic acid (FGA)
+P188/F68,369,True,PEG-PLGA (mPEG5000-PLGA15000 (25:75)); Fullerenol (C60(OH)22); Polyvinyl alcohol (PVA); Pluronic F68
+P188/F68,386,True,Pluronic F68; TPGS
+P188/F68,390,True,mPEG5k-b-PLGA2k; PCL3.4k; MCT; Poloxamer 188
+P188/F68,422,True,Pluronic F68
+P188/F68,451,False,Pluronic P85; Pluronic F68
+P188/F68,453,True,PEG-PPS-GSNO; Pluronic F68; Dichloromethane
+P188/F68,480,True,Sodium alginate; Pluronic F68; Calcium chloride; Barium chloride; CaEDTA/GDL
+P188/F68,490,True,Poly(δ-decalactone); Pluronic F-68
+P188/F68,518,True,PLGA 50:50; Poloxamer 188; Hemp seed oil
+P188/F68,524,True,PEG-PLA; Folic acid; Pluronic F-68
+P188/F68,603,True,Stearic acid; Palmitic acid; Sodium cholate; Soybean phosphatidylcholine; Poloxamer 188
+P188/F68,680,True,Chitooligosaccharides; Pluronic F-68
+P188/F68,735,True,Polysorbate 80; PLAC-PEG; Pluronic F68; Pluronic F127; Brij L23; Brij 58; Vitamin E-PEG
+P188/F68,738,True,VEV-FOL; Pluronic F-68
+P188/F68,746,True,Soluplus (biotin-conjugated); Poloxamer 188 (biotin-conjugated)
+P188/F68,879,True,Pluronic F-68; HEMA; Irgacure; EGDMA; DMA; NVP; Siloxane
+P188/F68,905,True,PEG-PLGA 50:50; Poloxamer 188 (P188); Poloxamer 407 (P407); Chitosan
+P188/F68,928,True,TPGS; Pluronic F68; Ethanol; Double distilled water
+P188/F68,933,True,Stearic acid; Lecithin; Poloxamer 188
+P188/F68,982,True,Goat fat; Phospholipon® 90H; PEG 4000; Poloxamer 188
+P188/F68,1015,True,Pluronic F68; Pluronic F127; Soluplus; Tween 80
+P188/F68,1041,True,mPEG-PLGA; Pluronic 407 (F127); Pluronic 188 (F68)
+P188/F68,1114,True,Pluronic F68
+P188/F68,1125,True,F68-VES
+P188/F68,1219,True,F68-CHMC
+P188/F68,1255,True,PEG-PCL; Chitosan; Poloxamer 407; Poloxamer 188
+P188/F68,1264,True,Poloxamer 188; MePEG-peptide-PET-PCL
+P188/F68,1289,True,Lecithin; Soybean oil; Glyceryl monostearate; Glycerol; Poloxamer 188; Sucrose and mannitol (4:1)
+F127/P407,8,True,Pluronic F127; Poly-caprolactone (PCL); Poly-lactic acid (PLA); Poly-lactic-co-glycolic acid (PLGA)
+F127/P407,34,True,Pluronic F-127; Cetyltrimethylammonium bromide (CTAB); Tetraethyl orthosilicate (TEOS); Triethylamine (TEA); Triethanolamine (TEO); Ammonia solution; (3-aminopropyl) triethoxysilane (APTES)
+F127/P407,59,True,Pluronic F127; Cremophor EL
+F127/P407,73,True,Pluronic F127; Tween80
+F127/P407,78,True,Pluronic F127; Chitosan; Sodium dodecyl sulphate
+F127/P407,86,True,Pluronic P123; Pluronic F127; Tryptophan derivate (TD)
+F127/P407,90,True,Poloxamer 407; TPGS
+F127/P407,92,True,Poloxamer 407; Gellucire 44/14
+F127/P407,105,True,Soluplus; E-TPGS; Poloxamer 407
+F127/P407,113,True,Pluronic F127; Pluronic P123; D-α-tocopheryl polyethylene glycol 1000 succinate (TPGS)
+F127/P407,140,True,Poloxamer 407 (F127); Poloxamer 188 (P188); Solutol®HS15
+F127/P407,157,True,Pluronic F127; DDAB; Hyaluronic acid
+F127/P407,161,True,Pluronic® F127; Phenylboronic acid
+F127/P407,168,True,Pluronic F127
+F127/P407,176,True,Pluronic L121; Pluronic F127; Gelucire 44/14; Trehalose
+F127/P407,204,True,Pluronic F127; Chitosan; Alginate
+F127/P407,229,False,Pluronic F127; Vitamin E TPGS; Dichloromethane; Acetone
+F127/P407,233,True,Pluronic F127 (HOOC-F127-COOH); Cystamine dihydrochloride; Maleic anhydride; Pyridine; Toluene; NHS; EDC·HCl; Methanol
+F127/P407,240,True,Pluronic F127; Tween 80
+F127/P407,247,False,Pluronic F127; Propylene glycol
+F127/P407,254,True,Poloxamer 188; Poloxamer 407; Poly-lactic acid
+F127/P407,255,True,MPEG-PCL; Pluronic F-127; Tween-80
+F127/P407,262,True,Pluronic F127
+F127/P407,264,True,Pluronic F127/L121; HPβCD
+F127/P407,268,True,Pluronic P123; Pluronic F127; PEO₁₁₃-b-PCL₁₁₈; Ethanol; Acetone; Tween 20
+F127/P407,272,True,Pluronic P123; Pluronic F127; Folate-conjugated Pluronic F127
+F127/P407,291,True,O-succinyl chitosan; Pluronic F127; EDC; NHS; Anti-HER2
+F127/P407,292,True,Pluronic P123; Pluronic F127
+F127/P407,321,True,"Poloxamer 407; 1,6-hexamethylene diisocyanate; 1,4-cyclohexanedimethanol; Dibutyltin dilaurate"
+F127/P407,339,True,PHis-PLA-PEG-PLA-PHis; Pluronic® F127; Folate-Pluronic® F127; Pluronic® P85
+F127/P407,348,False,Pluronic F127; Pluronic P84; Pluronic P123
+F127/P407,360,True,Pluronic L121; Pluronic F127; cRGD-F127
+F127/P407,382,True,Pluronic F127; bis-GMPA dendrons; bis-MPA dendrons; Glycine
+F127/P407,387,False,Pluronic P123; Pluronic F127
+F127/P407,397,True,Lipoid S100; Cholesterol; Sodium cholate; PEG-2000-PE; Pluronic F127
+F127/P407,412,True,Pluronic F127; Methanol; Ethanol; Hydrochloric acid
+F127/P407,450,True,Pluronic L121; Pluronic F127
+F127/P407,455,True,Pluronic F127
+F127/P407,482,False,Pluronic F127; L-arginine; Polyarginine
+F127/P407,512,True,"Pluronic F127; Folate-conjugated Pluronic F127; Poly(ethyl glycol)-b-poly(2,3,4,5,6-pentafluorostyrene); Perfluorodecalin; Perfluorotributylamine"
+F127/P407,516,True,Pluronic F127; Pluronic P105-MTX
+F127/P407,541,True,Pluronic F127; Gelucire 44/14; Carbopol-940
+F127/P407,581,True,Soluplus; Poloxamer 407; Acetone
+F127/P407,593,True,Pluronic F127; D-α-tocopheryl polyethylene glycol 1000 succinate (TPGS); Poly(butylcyanoacrylate) (PBCA)
+F127/P407,605,True,Kolliphor P 407
+F127/P407,628,False,"2-hydroxyethyl cellulose; Poloxamer 407; N,N'-methylenebisacrylamide; Poly(ethylene glycol) diacrylate; Hydrogen peroxide"
+F127/P407,632,True,Poloxamer 407; D-α-Tocopheryl polyethylene glycol 1000 succinate (TPGS)
+F127/P407,643,True,TPGS; Poloxamer 407
+F127/P407,664,True,Pluronic F127; Tween 80
+F127/P407,666,True,Sodium alginate; Poloxamer 407
+F127/P407,704,True,Solutol® HS15; Pluronic F127
+F127/P407,709,True,Pluronic F127; Plasdone S630
+F127/P407,715,True,Pluronic P123; Pluronic P407; TPGS
+F127/P407,724,True,F127-GA; F127-SS-PDLA
+F127/P407,732,True,Poloxamer 407; TPGS; Folic acid
+F127/P407,735,True,Polysorbate 80; PLAC-PEG; Pluronic F68; Pluronic F127; Brij L23; Brij 58; Vitamin E-PEG
+F127/P407,759,True,Pluronic F127; Pluronic L61; Terpinolene
+F127/P407,798,True,Lutrol F127; Gelucire 44/14
+F127/P407,807,True,Polyvinyl alcohol; Hydroxypropyl methylcellulose; Pluronic P407
+F127/P407,860,True,Pluronic P105; Pluronic F127
+F127/P407,865,True,Pluronic F127; Pluronic P123; Oleic acid; Carbopol 934P
+F127/P407,894,True,Pluronic P105; Pluronic F127; Triethylamine
+F127/P407,905,True,PEG-PLGA 50:50; Poloxamer 188 (P188); Poloxamer 407 (P407); Chitosan
+F127/P407,908,True,Capryol 90; Poloxamer 407
+F127/P407,914,True,Pluronic F127; Pluronic P105; Pluronic P105-DOX
+F127/P407,932,True,Cremophor RH60; Pluronic F127
+F127/P407,945,True,Sodium cholate; F127-CS copolymer
+F127/P407,964,True,D-α-tocopherol polyethylene glycol 1000 succinate (TPGS); Pluronic F127
+F127/P407,966,True,Poloxamer 407; Chitosan; Sodium tripolyphosphate
+F127/P407,975,True,Pluronic P123; Pluronic F127
+F127/P407,1004,True,Pluronic F127; Cremophor EL
+F127/P407,1015,True,Pluronic F68; Pluronic F127; Soluplus; Tween 80
+F127/P407,1016,True,Pluronic F127; Polyethylenimine; Folic acid
+F127/P407,1041,True,mPEG-PLGA; Pluronic 407 (F127); Pluronic 188 (F68)
+F127/P407,1056,True,Poloxamer 407; Tetronic 90R4; PLGA; Glucosamine
+F127/P407,1140,True,PDMAEMA-b-PCL-b-PDMAEMA; Pluronic F127
+F127/P407,1150,True,Pluronic F127; Tetramethoxysilane (TMOS); Folic acid; ZnSe:Mn/ZnS core-shell quantum dots
+F127/P407,1153,False,Pluronic P123; Pluronic F127
+F127/P407,1164,True,F127; sF127; PEDOT:PSS
+F127/P407,1177,True,POEGMA-b-P(St-co-FPMA) (PPP); Poloxamer Pluronic F127
+F127/P407,1180,False,Pluronic P123; Pluronic F127
+F127/P407,1205,False,Pluronic F-127; Chitosan; Alginate; Tripolyphosphate; Commercial polyester fabric
+F127/P407,1209,True,Pluronic F-127; Ureasil-polyether (U-PEO); 3-isocyanatopropyltriethoxysilane; NH2-POE-NH2
+F127/P407,1255,True,PEG-PCL; Chitosan; Poloxamer 407; Poloxamer 188
+F127/P407,1271,True,Pluronic F127; Pluronic P123; Folic acid; Hyaluronic acid
+F127/P407,1275,True,"F127 (Pluronic F127, EO106PO70EO106); Tetraethoxysilane (TEOS); Diethoxydimethylsilane (DEDMS)"
+F127/P407,1309,True,mPEG-b-PLA; Soluplus; Pluronics F127

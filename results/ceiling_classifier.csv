@@ -1,0 +1,5 @@
+target,model,n,base_rate,roc_auc,average_precision
+encapsulation_efficiency_percent,Mean,803,0.2254,0.4583,0.2059
+encapsulation_efficiency_percent,NestedSelected,803,0.2254,0.6173,0.346
+encapsulation_efficiency_percent,Ridge,803,0.2254,0.5955,0.3014
+encapsulation_efficiency_percent,TabPFN,803,0.2254,0.6168,0.3186

@@ -1,0 +1,11 @@
+task,removed_block,balanced_accuracy,delta_vs_full
+zeta_sign,none (full),0.392,0
+zeta_sign,ratio block,0.343,-0.049
+zeta_sign,descriptors block,0.402,+0.010
+zeta_sign,family block,0.413,+0.022
+zeta_sign,other block,0.405,+0.013
+size_band,none (full),0.380,0
+size_band,ratio block,0.374,-0.007
+size_band,descriptors block,0.383,+0.002
+size_band,family block,0.380,-0.000
+size_band,other block,0.378,-0.002

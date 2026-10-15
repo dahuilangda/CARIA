@@ -1,0 +1,455 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "formulation_composition": {
+      "type": "object",
+      "properties": {
+        "primary_system_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "active_pharmaceutical_ingredient": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "api_amount_mg": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "bcs_class": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "log_p": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "molecular_weight_da": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "name",
+            "api_amount_mg",
+            "bcs_class",
+            "log_p",
+            "molecular_weight_da"
+          ],
+          "additionalProperties": false
+        },
+        "excipients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "role": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "amount_mg": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "concentration_percent_w_v": {
+                "type": [
+                  "number",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "name",
+              "role",
+              "amount_mg",
+              "concentration_percent_w_v"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "critical_ratios": {
+          "type": "object",
+          "properties": {
+            "drug_polymer_ratio": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "drug_lipid_ratio": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "surfactant_concentration_percent": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "organic_aqueous_phase_ratio": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "drug_polymer_ratio",
+            "drug_lipid_ratio",
+            "surfactant_concentration_percent",
+            "organic_aqueous_phase_ratio"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "primary_system_type",
+        "active_pharmaceutical_ingredient",
+        "excipients",
+        "critical_ratios"
+      ],
+      "additionalProperties": false
+    },
+    "physicochemical_properties": {
+      "type": "object",
+      "properties": {
+        "particle_size_nm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "polydispersity_index_pdi": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "zeta_potential_mv": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "morphology": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "particle_size_nm",
+        "polydispersity_index_pdi",
+        "zeta_potential_mv",
+        "morphology"
+      ],
+      "additionalProperties": false
+    },
+    "drug_performance_metrics": {
+      "type": "object",
+      "properties": {
+        "loading_and_encapsulation": {
+          "type": "object",
+          "properties": {
+            "drug_loading_percent": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "encapsulation_efficiency_percent": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "required": [
+            "drug_loading_percent",
+            "encapsulation_efficiency_percent"
+          ],
+          "additionalProperties": false
+        },
+        "solubility_enhancement": {
+          "type": "object",
+          "properties": {
+            "solubility_in_formulation_mg_ml": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "solubility_increase_fold": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "solubility_in_formulation_mg_ml",
+            "solubility_increase_fold"
+          ],
+          "additionalProperties": false
+        },
+        "in_vitro_release_profile": {
+          "type": "object",
+          "properties": {
+            "release_medium": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "initial_burst_release_percent_2h": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "cumulative_release_percent_24h": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "total_release_duration_hours": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "release_mechanism": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "release_medium",
+            "initial_burst_release_percent_2h",
+            "cumulative_release_percent_24h",
+            "total_release_duration_hours",
+            "release_mechanism"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "loading_and_encapsulation",
+        "solubility_enhancement",
+        "in_vitro_release_profile"
+      ],
+      "additionalProperties": false
+    },
+    "biological_performance": {
+      "type": "object",
+      "properties": {
+        "in_vivo_model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "administration_route": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bioavailability": {
+          "type": "object",
+          "properties": {
+            "absolute_bioavailability_percent": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            },
+            "relative_bioavailability_fold": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "auc_improvement_fold": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "absolute_bioavailability_percent",
+            "relative_bioavailability_fold",
+            "auc_improvement_fold"
+          ],
+          "additionalProperties": false
+        },
+        "pharmacokinetics_comparison": {
+          "type": "object",
+          "properties": {
+            "cmax_increase_fold": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "tmax_hours": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            },
+            "half_life_increase_fold": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "minimum": 0
+            }
+          },
+          "required": [
+            "cmax_increase_fold",
+            "tmax_hours",
+            "half_life_increase_fold"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "in_vivo_model",
+        "administration_route",
+        "bioavailability",
+        "pharmacokinetics_comparison"
+      ],
+      "additionalProperties": false
+    },
+    "manufacturing_details": {
+      "type": "object",
+      "properties": {
+        "preparation_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "key_process_parameters": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "process_yield_percent": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "required": [
+        "preparation_method",
+        "key_process_parameters",
+        "process_yield_percent"
+      ],
+      "additionalProperties": false
+    },
+    "extraction_summary": {
+      "type": "object",
+      "properties": {
+        "data_completeness_score": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "extraction_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        }
+      },
+      "required": [
+        "data_completeness_score",
+        "extraction_confidence"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "formulation_composition",
+    "physicochemical_properties",
+    "drug_performance_metrics",
+    "biological_performance",
+    "manufacturing_details",
+    "extraction_summary"
+  ],
+  "additionalProperties": false
+}

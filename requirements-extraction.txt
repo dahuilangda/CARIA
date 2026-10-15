@@ -1,0 +1,5 @@
+# Fresh extraction talks to any OpenAI-compatible endpoint over the
+# standard library; no extra packages are required beyond requirements.txt.
+# discovery channels (PubMed via pymed, web search via Tavily)
+tavily-python>=0.5
+pymed>=0.8.9

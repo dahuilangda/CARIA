@@ -1,0 +1,53 @@
+{
+  "tabpfn_targets": [
+    "drug_loading_percent",
+    "encapsulation_efficiency_percent"
+  ],
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "selection": "Minimum RMSE across complete training-only inner OOF predictions; candidate tie uses declared order.",
+  "configurations": [
+    "rf_depth8",
+    "rf_leaf15",
+    "extra_trees",
+    "hist_gradient_boosting",
+    "ridge",
+    "mean"
+  ],
+  "prediction_transform": "Original units; percent clip 0..100, size lower bound0. Identical clipping for inner/outer scoring.",
+  "features": "Reported formulation inputs and fixed molecular descriptors; no cross-corpus ratio fill. All feature selection, median fill and Ridge scaling fit within training folds.",
+  "missing_structure_groups": "Unavailable structures share NA_GROUP; this is not verified publication grouping.",
+  "inputs_sha256": {
+    "corrected_dataset.csv": "986790083cec6b1a16cfbb574f6bce87eeb5746ed7713fb244d6eed6c1b4ca57",
+    "chemical_groups_dupaware.csv": "b0f75b45db0545e75f68de2b44ad8e33afd6ed9f8c03ea4f8bf7bc3ddcbe98b8",
+    "inputs/formulation_features.csv": "9885326362ec3610219f702381f726a9d9d3f96f6067da006c33dfeaef65cf24",
+    "inputs/feature_sources.csv": "8092afac2fdd42a5dc51c6e4c89d120293e16642d10d76377a9ff68b87f60ecd"
+  },
+  "software": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.1",
+    "tabpfn": "9.2.0"
+  },
+  "status": "Internal development diagnostic; source identities and external prospective accuracy are not established.",
+  "implementation_sha256": {
+    "evaluation.py": "02d601a46bf9c5399557b984b537c008f83f2eb54ccd27d1c7ce61d6eebb4c2f",
+    "features.py": "c24e00e1cd5193947f9210fb5ed002defae3b88ca49f2ee328fa3c645d526240"
+  },
+  "estimators": {
+    "rf_depth8": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('model',\n                 RandomForestRegressor(max_depth=8, n_jobs=8,\n                                       random_state=42))])",
+    "rf_leaf15": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('model',\n                 RandomForestRegressor(max_depth=8, max_features=0.5,\n                                       min_samples_leaf=15, n_jobs=8,\n                                       random_state=42))])",
+    "extra_trees": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('model',\n                 ExtraTreesRegressor(max_depth=8, n_jobs=8, random_state=42))])",
+    "hist_gradient_boosting": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('model',\n                 HistGradientBoostingRegressor(early_stopping=False,\n                                               l2_regularization=20.0,\n                                               learning_rate=0.05,\n                                               max_leaf_nodes=7,\n                                               min_samples_leaf=30,\n                                               random_state=42))])",
+    "ridge": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('scale', StandardScaler()), ('model', Ridge(alpha=1000.0))])",
+    "mean": "Pipeline(steps=[('impute',\n                 SimpleImputer(keep_empty_features=True, strategy='median')),\n                ('model', DummyRegressor())])"
+  },
+  "tabpfn_checkpoint": {
+    "filename": "tabpfn-v3.5-20260909.safetensors",
+    "sha256": "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3"
+  },
+  "tabpfn_model_path_setting": "tabpfn-v3.5-20260909.safetensors",
+  "completed": true
+}
